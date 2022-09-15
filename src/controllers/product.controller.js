@@ -1,3 +1,4 @@
+import { ObjectId } from "mongodb";
 import { db } from "../database/database.js";
 
 async function getAll(req, res) {
@@ -12,11 +13,11 @@ async function getAll(req, res) {
 }
 
 async function getOne(req, res) {
+  const _id = new ObjectId(req.params.id);
+
   try {
-    const product = await db
-      .collection("products")
-      .findOne({ id: parseInt(req.params.id) });
-    console.log(product);
+    const product = await db.collection("products").findOne({ _id: _id });
+
     res.status(200).send(product);
     return;
   } catch (error) {
