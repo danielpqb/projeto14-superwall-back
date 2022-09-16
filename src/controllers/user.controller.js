@@ -65,4 +65,27 @@ async function signIn(req, res) {
   }
 }
 
-export { signUp, signIn };
+async function getUserByToken(req, res) {
+  const { authorization } = req.headers;
+  const token = authorization?.replace("Bearer ", "");
+
+  if (!token) {
+    return res.status(401).send("Invalid token");
+  }
+
+  try {
+    const user = await db.collection("users").findOne({ token });
+
+    delete user.password;
+
+    if (!user) {
+      return res.status(401).send("User not found");
+    }
+
+    res.status(200).send(user);
+  } catch (error) {
+    return res.status(500).send(error);
+  }
+}
+
+export { signUp, signIn, getUserByToken };
