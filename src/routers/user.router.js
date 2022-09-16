@@ -1,6 +1,10 @@
 import express from "express";
 
-import { signUp, signIn } from "../controllers/user.controller.js";
+import {
+  signUp,
+  signIn,
+  getUserByToken,
+} from "../controllers/user.controller.js";
 import {
   signInValidation,
   signUpValidation,
@@ -8,6 +12,7 @@ import {
 
 const router = express.Router();
 
+router.get("/userToken", getUserByToken);
 router.post("/account/register", signUpValidation, signUp);
 router.post("/account/login", signInValidation, signIn);
 
