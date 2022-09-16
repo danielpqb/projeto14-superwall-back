@@ -9,7 +9,7 @@ async function userAuthorization(req, res, next){
     }
 
     try {
-        const user = await db.collection('user').findOne({ token });
+        const user = await db.collection('users').findOne({ token });
     
         if (!user) {        
             return res.status(401).send('User not found');
