@@ -40,15 +40,17 @@ async function signIn(req, res) {
 
     //Check if user exists AND password is correct
     if (user && bcrypt.compareSync(req.body.password, user.password)) {
+      const token = uuid();
+
       await db
         .collection("users")
         .updateOne(
           { _id: user._id },
-          { $set: { lastStatus: Date.now(), token: uuid() } }
+          { $set: { lastStatus: Date.now(), token } }
         );
 
       res.status(200).send({
-        token: user.token,
+        token,
         email: user.email,
         name: user.name,
       });
