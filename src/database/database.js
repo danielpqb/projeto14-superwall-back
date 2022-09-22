@@ -9,6 +9,6 @@ try {
 } catch (error) {
   console.log(error.message);
 }
-const db = mongoClient.db("superwall");
+const db = mongoClient.db("superwall-dev");
 
 export { db };
