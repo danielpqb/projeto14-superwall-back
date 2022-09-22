@@ -7,6 +7,7 @@ async function postOrder (req, res) {
     const { email, name, address, payment, order, total } = req.body;
 
     const orderObj = {
+        date: new Date(),
         email: stripHtml(email).result,
         name: stripHtml(name).result,
         address: stripHtml(address).result,

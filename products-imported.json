@@ -46,5 +46,137 @@
     "price": 18.39,
     "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_659368-MLA44374991835_122020-O.webp",
     "category": "Bebidas"
+  },
+  {
+    "description": "Arroz Tipo 1 Camil 5Kg",
+    "price": 19.99,
+    "imgSrc": "https://images.tcdn.com.br/img/img_prod/958613/arroz_tipo_1_camil_5kg_1243_1_18e2f75970b7f630f860fe98a3b8e472.jpg",
+    "category": "Alimentos"
+  },
+  {
+    "description": "Feijão Carioca Tipo 1 CAMIL Pacote 1kg",
+    "price": 8.99,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/297/10723297.jpeg",
+    "category": "Alimentos"
+  },
+  {
+    "description": "Café Torrado e Moído Tradicional 3 CORAÇÕES Pacote 500g",
+    "price": 17.39,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/980/645980.png",
+    "category": "Insumos"
+  },
+  {
+    "description": "Açúcar Refinado UNIÃO Pacote 1kg",
+    "price": 4.49,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/628/454628.jpg",
+    "category": "Insumos"
+  },
+  {
+    "description": "Sal Refinado CISNE Tradicional Pacote 1Kg",
+    "price": 3.55,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/632/454632.jpg",
+    "category": "Insumos"
+  },
+  {
+    "description": "Óleo de Soja LIZA Pet 900ml",
+    "price": 8.92,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/601/22065601.jpg",
+    "category": "Insumos"
+  },
+  {
+    "description": "Gelatina em pó Royal Cereja 25g",
+    "price": 1.60,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/7/19805007.jpg",
+    "category": "Doces"
+  },
+  {
+    "description": "Macarrão Instantâneo de Galinha Caipira Nissin Miojo Lámen Pacote 85g",
+    "price": 2.42,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/313/590313.png",
+    "category": "Alimentos"
+  },
+  {
+    "description": "Molho de Tomate Tradicional Heinz Pouch 300g",
+    "price": 3.85,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/131/24422131.jpg",
+    "category": "Insumos"
+  },
+  {
+    "description": "Achocolatado Pó Nescau Lata 370g Edição Especial Liga 2021",
+    "price": 8.63,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/152/21595152.jpg",
+    "category": "Doces"
+  },
+  {
+    "description": "Biscoito PASSATEMPO Recheado Chocolate 130g",
+    "price": 2.96,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/481/20537481.jpg",
+    "category": "Doces"
+  },
+  {
+    "description": "Creme de Leite NESTLÉ 300g",
+    "price": 8.73,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/362/676362.jpg",
+    "category": "Insumos"
+  },
+  {
+    "description": "Leite Condensado MOÇA Lata 395g",
+    "price": 8.69,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/389/20372389.jpg",
+    "category": "Insumos"
+  },
+  {
+    "description": "Farinha de Trigo Tradicional DONA BENTA Pacote 1kg",
+    "price": 6.69,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/694/570694.png",
+    "category": "Insumos"
+  },
+  {
+    "description": "Maionese Hellmann's Pote Leve 600g Pague 500g",
+    "price": 9.60,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/416/19181416.jpg",
+    "category": "Condimentos"
+  },
+  {
+    "description": "Ovos de Galinha Brancos Grande Qualitá Bandeja 10 Unidades",
+    "price": 12.55,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/794/23935794.png",
+    "category": "Alimentos"
+  },
+  {
+    "description": "Refresco em Pó CLIGHT de Limonada 8g",
+    "price": 1.48,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/476/622476.png",
+    "category": "Bebidas"
+  },
+  {
+    "description": "Sabonete Hidratante NIVEA Leite 85g",
+    "price": 3.16,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/926/18794926.jpg",
+    "category": "Higiene"
+  },
+  {
+    "description": "Creme Dental Colgate Tripla Ação 180g",
+    "price": 7.44,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/475/675475.jpg",
+    "category": "Higiene"
+  },
+  {
+    "description": "Detergente Líquido YPÊ Neutro 500ml",
+    "price": 2.55,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/101/566101.png",
+    "category": "Limpeza"
+  },
+  {
+    "description": "Esponja SCOTCH BRITE 3M Multiuso 4 Unidades",
+    "price": 5.32,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/467/637467.jpg",
+    "category": "Limpeza"
+  },
+  {
+    "description": "Shampoo Pantene Micelar 400ml",
+    "price": 23.99,
+    "imgSrc": "https://static.clubeextra.com.br/img/uploads/1/14/19764014.jpg",
+    "category": "Higiene"
   }
 ]
